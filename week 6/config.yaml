@@ -1,0 +1,25 @@
+file_type: csv
+dataset_name: "2014 New York City Taxi Trips"
+file_name: nyc_taxi_data_2014
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - vendor_id
+    - pickup_datetime
+    - dropoff_datetime
+    - passenger_count
+    - trip_distance
+    - pickup_longitude
+    - pickup_latitude
+    - rate_code
+    - store_and_fwd_flag
+    - dropoff_longitude
+    - dropoff_latitude
+    - payment_type
+    - fare_amount
+    - surcharge
+    - mta_tax
+    - tip_amount
+    - tolls_amount
+    - total_amount
